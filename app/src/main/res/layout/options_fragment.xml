@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#242526"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="#242526"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/difficulty_button"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:text="Difficulty"/>
+
+        <Button
+            android:id="@+id/start_new_game_button"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:text="Start New Game"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
